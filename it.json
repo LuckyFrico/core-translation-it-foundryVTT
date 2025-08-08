@@ -975,8 +975,8 @@
   "Scenes": "Scene",
   "Setting": "Impostazione",
   "Settings": "Impostazioni",
-  "RollTable": "Tabella di tiro",
-  "RollTables": "Tabelle di tiro",
+  "RollTable": "Tabella Casuale",
+  "RollTables": "Tabelle Casuali",
   "Region": "Regione",
   "Regions": "Regioni",
   "RegionBehavior": "Comportamento della regione",
@@ -2055,7 +2055,7 @@
       "hint": "Consenti la condivisione dei dati d’uso con noi per aiutarci a migliorare Foundry Virtual Tabletop. I dati raccolti, se questa opzione è abilitata, sono documentati nella nostra <a href=\"https://foundryvtt.com/article/privacy-policy/\" target=\"_blank\">Privacy Policy</a>, non contengono informazioni personali identificabili e non vengono condivisi con terze parti. La condivisione dei dati d’uso ci aiuta a rispondere a domande come \"quali versioni di Foundry Virtual Tabletop vengono utilizzate più frequentemente\", \"quali sistemi di gioco sono più giocati\" e \"quali versioni dei moduli sono installate più spesso\". Usiamo questi dati aggregati per migliorare la compatibilità del software, fornire un migliore supporto e condividere statistiche con la community. Se l'opzione è disabilitata, non verranno condivisi dati."
     },
     "cssTheme": {
-      "label": "Tema di configurazione",
+      "label": "Impostazione Tema",
       "hint": "Scegli tra diversi temi visivi che configurano l'aspetto del menu di configurazione dell'applicazione."
     },
     "world": {
@@ -2084,7 +2084,7 @@
       "hint": "Nella versione 11 il software è passato da una vecchia tecnologia di database (NEDB) a una nuova (LevelDB). I file di database vengono migrati automaticamente nel nuovo formato e i vecchi file NEDB vengono conservati per rollback o diagnosi. Questa misura di sicurezza aumenta lo spazio su disco occupato da Foundry Virtual Tabletop. Abilitando questa opzione, i file NEDB verranno eliminati automaticamente dopo la migrazione. Questo sarà il comportamento predefinito dalla Versione 12."
     },
     "hotReload": {
-      "label": "Ricarica a caldo file pacchetto",
+      "label": "Ricarica file pacchetto",
       "hint": "Consenti ai pacchetti di ricaricare gli asset come file CSS, HTML e di localizzazione senza un aggiornamento completo. Consigliato solo per sviluppatori."
     },
     "sslCert": {
@@ -2290,8 +2290,8 @@
   "SaveConfiguration": "Salva configurazione",
   "MissingRequirements": "Manca il {type} richiesto \"{id}\"",
   "UpdateAll": "Aggiorna tutto",
-  "UpdateChannel": "Canale di aggiornamento software",
-  "UpdateChannelHint": "Puoi scegliere un canale di aggiornamento per controllare i tipi di aggiornamenti che desideri ricevere per il software core di Foundry Virtual Tabletop. Se non hai una ragione specifica per cambiare, è consigliato utilizzare il canale Stable.",
+  "UpdateChannel": "Tipo di aggiornamento",
+  "UpdateChannelHint": "Puoi scegliere una tipologia di release per verificare la disponibilità di aggiornamenti per il software core di Foundry Virtual Tabletop. Se non hai una ragione specifica per cambiare, è consigliato utilizzare la tipologia Stabile.",
   "UpdateCheck": "Aggiornamento",
   "UpdateCheckFor": "Verifica aggiornamenti",
   "UpdatePerformIfAvailable": "Esegui aggiornamento se disponibile",
@@ -2304,7 +2304,7 @@
   "UpdateTestingHint": "Testing funzionalità: release per testare il funzionamento delle nuove funzionalità e ottenere feedback dalla comunità di utenti.",
   "UpdateStable": "Stabile",
   "UpdateStableHint": "Stabile: release accuratamente testate e consigliate per l'uso in partite dal vivo.",
-  "ForceUpdateHint": "Selezionando l'opzione Aggiornamento forzato sovrascriverai il software corrente ripristinandolo all'ultima versione del canale scelto. Usa questa opzione con cautela.",
+  "ForceUpdateHint": "Selezionando l'opzione Aggiornamento forzato sovrascriverai il software corrente ripristinandolo all'ultima versione della tipologia di release selezionata. Usa questa opzione con cautela.",
   "Uninstall": "Disinstalla",
   "Reinstall": "Reinstalla",
   "ReinstallPackageNotFound": "La reinstallazione del pacchetto è fallita poiché un pacchetto con quell'ID non è stato trovato nel repository centrale dei pacchetti. Dovrai reinstallarlo manualmente tramite il suo link di manifest.",
@@ -2329,7 +2329,7 @@
   "Verified": "Il pacchetto è verificato per questa versione di Foundry",
   "ErrorTimeout": "La richiesta a {url} è scaduta dopo {timeout}s",
 
-  "WarningsTitle": "Avvisi Pacchetto",
+  "WarningsTitle": "Avvisi",
   "WarningsNone": "Non hai avvisi!",
   "WarningsManage": "Gestisci Pacchetto",
 
@@ -2477,8 +2477,8 @@
   "WorldMigrationInProcess": "I dati del tuo Mondo vengono migrati per essere compatibili con {version}. Questo potrebbe richiedere del tempo. Ti preghiamo di pazientare e di non chiudere il software.",
 
   "AdminAccess": "Accesso Amministratore Richiesto",
-  "AdminPasswordPrompt": "Attualmente non c'è nessuna partita attiva su questo server. Per accedere al menu di configurazione devi fornire la password dell'amministratore del server.",
-  "AdminPasswordForgot": "Se hai dimenticato la password dell'amministratore, l'amministratore del server può reimpostarla <a href='https://foundryvtt.com/article/reset-admin-password/' target='_blank'>seguendo queste istruzioni</a>.",
+  "AdminPasswordPrompt": "Attualmente non c'è nessuna partita attiva su questo server. Per accedere al menu di configurazione devi fornire la password.",
+  "AdminPasswordForgot": "Se hai dimenticato la password, puoi reimpostarla <a href='https://foundryvtt.com/article/reset-admin-password/' target='_blank'>seguendo queste istruzioni</a>.",
   "AdminLogIn": "Accedi",
   "AdminLogout": "Disconnetti Amministratore",
 
@@ -2763,7 +2763,7 @@
 
 "JOIN": {
   "CurrentPlayers": "Giocatori attuali",
-  "HeaderJoin": "Partecipa alla sessione di gioco",
+  "HeaderJoin": "Partecipa alla sessione",
   "HeaderDetails": "Dettagli della partita",
   "HeaderWorld": "Descrizione del Mondo",
   "NextSession": "Prossima sessione",
