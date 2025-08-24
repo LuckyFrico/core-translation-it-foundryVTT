@@ -2044,7 +2044,7 @@
   "FIELDS": {
     "adminPassword": {
       "label": "Password amministratore",
-      "hint": "La password amministratore serve a proteggere l'accesso a quest'area di configurazione di Foundry Virtual Tabletop. È fortemente consigliato impostarla per il tuo server."
+      "hint": "La password amministratore serve a proteggere l'accesso a quest'area di configurazione di Foundry VTT. È fortemente consigliato impostarla."
     },
     "dataPath": {
       "label": "Percorso dati utente",
@@ -2052,11 +2052,11 @@
     },
     "telemetry": {
       "label": "Consenti condivisione dati d’uso",
-      "hint": "Consenti la condivisione dei dati d’uso con noi per aiutarci a migliorare Foundry Virtual Tabletop. I dati raccolti, se questa opzione è abilitata, sono documentati nella nostra <a href=\"https://foundryvtt.com/article/privacy-policy/\" target=\"_blank\">Privacy Policy</a>, non contengono informazioni personali identificabili e non vengono condivisi con terze parti. La condivisione dei dati d’uso ci aiuta a rispondere a domande come \"quali versioni di Foundry Virtual Tabletop vengono utilizzate più frequentemente\", \"quali sistemi di gioco sono più giocati\" e \"quali versioni dei moduli sono installate più spesso\". Usiamo questi dati aggregati per migliorare la compatibilità del software, fornire un migliore supporto e condividere statistiche con la community. Se l'opzione è disabilitata, non verranno condivisi dati."
+      "hint": "Consenti la condivisione dei dati d’uso per aiutarci a migliorare Foundry VTT. I dati raccolti, se questa opzione è abilitata, sono documentati nella nostra <a href=\"https://foundryvtt.com/article/privacy-policy/\" target=\"_blank\">Privacy Policy</a>, non contengono informazioni personali identificabili e non vengono condivisi con terze parti. La condivisione dei dati d’uso ci aiuta a rispondere a domande come \"quali versioni di Foundry Virtual Tabletop vengono utilizzate più frequentemente\", \"quali sistemi di gioco sono più giocati\" e \"quali versioni dei moduli sono installate più spesso\". Usiamo questi dati aggregati per migliorare la compatibilità del software, fornire un migliore supporto e condividere statistiche con la community. Se l'opzione è disabilitata, non verranno condivisi dati."
     },
     "cssTheme": {
       "label": "Impostazione Tema",
-      "hint": "Scegli tra diversi temi visivi che configurano l'aspetto del menu di configurazione dell'applicazione."
+      "hint": "Scegli tra diversi temi visivi che definiscono l'aspetto del menu di configurazione dell'applicazione."
     },
     "world": {
       "label": "Mondo predefinito",
@@ -2064,20 +2064,20 @@
     },
     "language": {
       "label": "Lingua predefinita",
-      "hint": "Puoi scegliere una lingua predefinita per l'applicazione selezionando un modulo che fornisce i file di traduzione principali per quella lingua."
+      "hint": "Puoi scegliere una lingua predefinita per l'applicazione selezionando un modulo che fornisce i file di traduzione principali."
     },
     "upnp.label": "Abilita UPnP",
     "port": {
       "label": "Porta",
-      "hint": "Scegli quale porta utilizza Foundry Virtual Tabletop per il traffico di connessione TCP e abilita o disabilita Universal Plug and Play (UPnP)."
+      "hint": "Scegli quale porta utilizza Foundry VTT per il traffico di connessione TCP e abilita o disabilita Universal Plug and Play (UPnP)."
     },
     "compressStatic": {
       "label": "Comprimi file statici",
-      "hint": "Comprimi i file serviti dal server web di Foundry Virtual Tabletop prima di inviarli al client per ridurre la quantità di dati trasferiti."
+      "hint": "Comprimi i file forniti dal server web di Foundry VTT prima di inviarli al client per ridurre la quantità di dati trasferiti."
     },
     "compressSocket": {
       "label": "Comprimi dati WebSocket",
-      "hint": "Abilita la compressione dei dati inviati dal server al client tramite WebSocket. È consigliato per le prestazioni di rete."
+      "hint": "Abilita la compressione dei dati inviati dal server al client tramite WebSocket. È consigliato per migliorare le prestazioni di rete."
     },
     "deleteNEDB": {
       "label": "Elimina file NEDB migrati",
@@ -2301,7 +2301,7 @@
   "UpdateDevelopment": "Sviluppo",
   "UpdateDevelopmentHint": "Sviluppo API: release per testare il design di nuove funzionalità e modifiche all'API per ottenere feedback dalla comunità di sviluppatori.",
   "UpdateTesting": "Test",
-  "UpdateTestingHint": "Testing funzionalità: release per testare il funzionamento delle nuove funzionalità e ottenere feedback dalla comunità di utenti.",
+  "UpdateTestingHint": "Test: release per testare il funzionamento delle nuove funzionalità e ottenere feedback dalla comunità di utenti.",
   "UpdateStable": "Stabile",
   "UpdateStableHint": "Stabile: release accuratamente testate e consigliate per l'uso in partite dal vivo.",
   "ForceUpdateHint": "Selezionando l'opzione Aggiornamento forzato sovrascriverai il software corrente ripristinandolo all'ultima versione della tipologia di release selezionata. Usa questa opzione con cautela.",
@@ -2679,7 +2679,7 @@
     "VIEW_MODES": {
       "GALLERY": "Vista galleria",
       "TILES": "Vista a riquadri",
-      "DETAILS": "Vista dettagli"
+      "DETAILS": "Vista dettagliata"
     },
     "ACTIONS": {
       "AddAuthor": "Aggiungi autore",
@@ -3216,13 +3216,13 @@
 "SIDEBAR.TabCompendium": "Compendi",
 "SIDEBAR.TabSettings": "Impostazioni di Gioco",
 "SIDEBAR.TabTables": "Tabelle Estraibili",
-"SIDEBAR.TokenArt": "Visualizza Grafica del Token",
+"SIDEBAR.TokenArt": "Visualizza Token",
 "SIDEBAR.SearchModeName": "Cerca solo per Nome",
 "SIDEBAR.SearchModeFull": "Ricerca Testuale Completa",
 "SIDEBAR.SortModeAlpha": "Ordina Alfabeticamente",
 "SIDEBAR.SortModeManual": "Ordina Manualmente",
 "SIDEBAR.JumpPin": "Vai al Pin",
-"SIDEBAR.CharArt": "Visualizza Grafica del Personaggio",
+"SIDEBAR.CharArt": "Visualizza Immagine del Personaggio",
 "SIDEBAR.CollapseToggle": "Comprimi o Espandi",
 "SIDEBAR.Delete": "Elimina",
 "SIDEBAR.DeleteWarning": "Questo {type} verrà eliminato definitivamente e non potrà essere recuperato.",
@@ -3276,7 +3276,7 @@
     "Support": "Supporto & Problemi",
     "Tours": "Gestione Tour",
     "ViewModules": "Visualizza Moduli Attivi",
-    "Wiki": "Pagine Wiki della Comunità"
+    "Wiki": "Wiki della Comunità"
   }
 },
 

@@ -2,10 +2,10 @@
   "id": "core-translation-it-foundryVTT",
   "title": "Core Translation VTT - Italian",
   "description": "Add Italian language to FoundryVTT core.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "13",
-    "verified": "13.324",
+    "verified": "13.347",
     "maximum": "13.999"
   },
   "coreTranslation": true,
@@ -29,6 +29,6 @@
   }],
     
   "manifest": "https://github.com/LuckyFrico/core-translation-it-foundryVTT/releases/latest/download/module.json",
-  "download": "https://github.com/LuckyFrico/core-translation-it-foundryVTT/releases/download/v1.0.0/module.zip",
+  "download": "https://github.com/LuckyFrico/core-translation-it-foundryVTT/releases/download/v1.0.1/module.zip",
   "url": "https://github.com/LuckyFrico/core-translation-it-foundryVTT"
 }
