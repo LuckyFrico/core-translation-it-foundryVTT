@@ -1,4 +1,4 @@
-# core-translation-it-foundryVTT/
+# Core Italian Translation Foundry VTT
 Traduzione italiana per il core del sistema di Foundry VTT
 
 ## Installazione
