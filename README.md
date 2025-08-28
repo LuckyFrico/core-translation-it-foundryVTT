@@ -10,9 +10,6 @@ Traduzione italiana per il core del sistema di Foundry VTT
 ## Supporto
 Se ti piace questo modulo e vorresti dare un contributo, suggerire l'aggiunta di una traduzione o hai trovato un errore contattami su discord @LuckyFrico o [crea un issue](https://github.com/LuckyFrico/core-translation-it-foundryVTT/issues) qui su GitHub.
 
-## Licenza
-Questo modulo per Foundry VTT è sotto la licenza [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/).
-
 ## Crediti
 Autore: **Lucky Frico** </br>
 Con la partecipazione ed il supporto di [Academy GDR](https://discord.gg/gEvHQ2Pexb)
